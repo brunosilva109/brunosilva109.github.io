@@ -1,0 +1,66 @@
+.textDoce{
+    font-size: 20px;
+}
+.image{
+    width: 250px;
+    height: 215px;
+}
+.doce{
+    min-width: 500px;
+    width: 400px;
+    height: 400px;
+    margin-left: 130px;
+    margin-top: 40px;
+    float: left;
+   
+}
+.MarginsLeft{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.card-group{
+    width: 1600px;
+    height: 100%; 
+   
+}
+
+.doce-card {
+    height: 400px;
+    width: 400px;
+    min-width: 400px;
+    max-width: 400px; 
+    background-color: rgba(255, 255, 255, 0.54);
+}
+@media screen and (min-width:0px) and (max-width: 1600px){
+    .card-group{
+        width: 1000px;
+        height: 100%; 
+       
+    }
+    .doce-card {
+        height: 300px;
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px; 
+        background-color: rgba(255, 255, 255, 0.54);
+    }
+    .image{
+        width: 150px;
+        height: 115px;
+    }
+    .doce{
+        min-width: 500px;
+        width: 400px;
+        height: 400px;
+        margin-left: 200px;
+        float: left;
+       
+    }
+    .btinfo{
+        width: 210px;
+        margin-left: 10px;
+    }
+    .textDoce{
+        font-size: 15px;
+    }
+  } 

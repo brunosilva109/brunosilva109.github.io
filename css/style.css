@@ -1,0 +1,180 @@
+#nav{
+    width:  100%;
+    height:75px;
+    background-color: rgba(243, 104, 243, 0.64);
+    min-width: 1000px;
+    border: 2px solid #000000;
+}
+
+.itemMenu{
+    padding: 15px 45px;
+    width: 165px;
+    height: 73px;
+    font-size: 25px;
+    border-left: 2px solid #000000;
+}
+.btX{
+    float: right;
+    margin-right:175px ;
+    margin-top: 80px;
+}
+.itemDoces{
+    padding: 15px 75px;
+    width: 260px;
+    height: 73px;
+    font-size: 25px;
+    border-left: 2px solid #000000;
+}
+.itemContatos{
+    padding: 15px 85px;
+    width: 260px;
+    height: 73px;
+    font-size: 25px;
+    border-left: 2px solid #000000;
+}
+.infoDoces{
+    width: 1600px;
+    height: 400px;
+    background-color: rgba(245, 198, 242, 0.459);
+    margin-top: 40px;
+
+}
+
+#busca{
+    margin: 0px 15px 0px 10px;
+    height: 70px;
+    width: 70px;
+    float: right;
+}
+#btContatos{
+     border-right: 2px solid #000000;
+}
+#Doce{
+    display: none;
+}
+#Contatos{
+    display:none;
+}
+body{
+    background-image: url("../img/doces.jpg")
+}
+.carouselTamanho{
+    margin-top: 50px;
+    margin-left:180px ;
+width: 1500px;
+height: 600px;
+}
+.imgCaro{
+    width: 1500px;
+    height: 600px;
+}
+
+
+
+
+
+.StyleGame{
+    width: 900px;
+    height: 700px;
+    background-color: rgba(0, 214, 252, 0.46);
+    position: fixed;
+    top: 120px;
+    left: 500px;
+}
+#HScore{
+    margin-top: -40px;
+    margin-left: 115px;
+}
+#h5score{
+
+ margin-top: 25px;
+}
+#score{
+    position: fixed;
+    top: 130px;
+    left: 1130px;
+    width: 270px;
+    height: 50px;
+    background-color: rgba(146, 84, 2, 0.72);
+}
+.score{
+    position: fixed;
+    top: 110px;
+    left: 1130px;
+    width: 270px;
+    height: 50px;
+}
+.principal{
+    height: 100px;
+    width: 100px;
+}
+.icon{
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+}
+#navGame{
+    margin-top: 80px;
+    width: 100px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.46);
+}
+.personagem{
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    top: 400px;
+    left: 800px;
+    z-index: 9999;
+}
+
+.btnVerde1{
+    background-color: greenyellow;
+    color: black;
+    height: 40px;
+    width: 200px;
+    margin: 75px -20px;
+    position: absolute;
+    top: 133px;
+    
+}
+.btnVerde{
+    background-color: greenyellow;
+    color: black;
+    height: 40px;
+    width: 200px;
+    margin: 75px -20px;
+    position: absolute;
+    top: 133px;
+}
+
+.upgrads{
+    height: 250px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+#divup{
+    position: fixed;
+    top: 200px;
+    left: 650px;
+    height: 400px;
+    width: 600px;
+}
+.left{
+    float: left;
+}
+
+@media screen and (min-width:0px) and (max-width: 1600px){
+    .infoDoces{
+        width: 900px;
+        height: 300px;
+        background-color: rgba(245, 198, 242, 0.459);
+    
+    }
+    .btX{
+        float: right;
+        margin: 80px auto;
+    }
+
+}
