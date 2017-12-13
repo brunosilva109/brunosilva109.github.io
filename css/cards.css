@@ -7,13 +7,13 @@
 }
 .doce{
     min-width: 500px;
-    width: 400px;
-    height: 400px;
-    margin-left: 130px;
-    margin-top: 40px;
+    width: 100%;
+    height:100%;
+  
     float: left;
    
 }
+
 .MarginsLeft{
     margin-left: 70px;
     margin-top: 20px;
@@ -22,6 +22,12 @@
     width: 1600px;
     height: 100%; 
    
+}
+.Tamanho{
+height: 600px;
+width: 1200px;
+max-width: 1200px;
+margin: 60px auto;
 }
 
 .doce-card {
@@ -33,7 +39,7 @@
 }
 @media screen and (min-width:0px) and (max-width: 1600px){
     .card-group{
-        width: 1000px;
+        width: 900px;
         height: 100%; 
        
     }
@@ -57,7 +63,7 @@
        
     }
     .btinfo{
-        width: 210px;
+        width: 240px;
         margin-left: 10px;
     }
     .textDoce{

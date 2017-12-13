@@ -1,0 +1,96 @@
+.StyleGame{
+    width: 900px;
+    height: 700px;
+    background-color: rgba(0, 214, 252, 0.46);
+    margin: 0px auto;
+}
+#HScore{
+    margin-top: -40px;
+    margin-left: 115px;
+}
+#h5score{
+
+ margin-top: 25px;
+}
+.Garota {
+    height: 130px;
+    width: 90px;
+    margin: 5px auto;
+}
+.maisPorclick{
+    height: 130px;
+    width: 110px;
+    margin: 5px auto;
+}
+#score{
+    position: fixed;
+    top: 130px;
+    left: 1130px;
+    width: 270px;
+    height: 50px;
+    background-color: rgba(146, 84, 2, 0.72);
+}
+.score{
+    position: fixed;
+    top: 110px;
+    left: 1130px;
+    width: 270px;
+    height: 50px;
+}
+.principal{
+    height: 100px;
+    width: 100px;
+}
+.icon{
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+}
+#navGame{
+    margin: 45px 0px -350px 0px;
+    width: 100px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.46);
+}
+.personagem{
+    height: 400px;
+    width: 400px;
+   margin: 200px 200px 0px 0px;
+    z-index: 9999;
+    float: right;
+}
+
+.btnVerde1{
+    background-color: greenyellow;
+    color: black;
+    height: 40px;
+    width: 200px;
+    margin: 75px -20px;
+    position: absolute;
+    top: 133px;
+    
+}
+.btnVerde{
+    background-color: greenyellow;
+    color: black;
+    height: 40px;
+    width: 200px;
+    margin: 75px -20px;
+    position: absolute;
+    top: 133px;
+}
+
+.upgrads{
+    height: 250px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+#divup{
+    margin: 40px auto;
+    height: 400px;
+    width: 600px;
+}
+.left{
+    float: left;
+}

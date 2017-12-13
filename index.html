@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="stylesheet" href="css/cards.css" type="text/css">
+        <link rel="stylesheet" href="css/Game.css" type="text/css">
 </head>
 
 <body>
@@ -29,73 +30,89 @@
         <div id="divGame" class="StyleGame">
                 <nav class="nav" id="navGame">
                         <img src="gameImg/DoceComeco.png" alt="Comeco" class="principal comeco">
-                        <img src="gameImg/Shop.ico" alt="Shop"  class="icon shop">
+                        <img src="gameImg/Shop.png" alt="Shop" class="icon shop">
                         <img src="gameImg/UpGrade.png" alt="Up" class="icon up">
-                        
+
                 </nav>
-                <div id="score"  ><img src="gameImg/derretido.png" class="score"><h5 id="h5score">SCORE: </h5><h3 id="HScore">0</h3></div>
+                <div id="score"><img src="gameImg/derretido.png" class="score">
+                        <h5 id="h5score">SCORE: </h5>
+                        <h3 id="HScore">0</h3>
+                </div>
                 <div id="divcomeco">
-                <img src="gameImg/Personagem1.png" alt="" class="personagem btPersonagem"></div>
+                        <img src="gameImg/Personagem1.png" alt="" class="personagem btPersonagem"></div>
                 <div id="divshop">
 
                 </div>
                 <div id="divup">
-                                <div class="card upgrads left" >
-                                                <img class="card-img-top" src="..." alt="Card image cap">
-                                                <div class="card-body">
-                                                  <h5 class="card-title">Mais Por click</h5>
-                                                  <a href="#" class="btn btnVerde1 btUpgrad1"><h5 id="Valor1"></h5> </a>
-                                                </div>
-                                              </div>
-                                <div class="card upgrads left" >
-                                                <img class="card-img-top" src="..." alt="Card image cap">
-                                                <div class="card-body">
-                                                  <h5 class="card-title">Velinha dos doces</h5>
-                                                  <a href="#" class="btn btnVerde1 btUpgrad2"><h5 id="Valor2"></h5> </a>
-                                                </div>
-                                              </div>
-                                <div class="card upgrads left" >
-                                                <img class="card-img-top" src="..." alt="Card image cap">
-                                                <div class="card-body">
-                                                  <h5 class="card-title">Fazenda de Doces</h5>
-                                                  <a href="#" class="btn btnVerde1 btUpgrad3"><h5 id="Valor3"></h5></a>
-                                                </div>
-                                              </div>
-                                <div class="card upgrads left" >
-                                                <img class="card-img-top" src="..." alt="Card image cap">
-                                                <div class="card-body">
-                                                  <h5 class="card-title">Loja de Doces</h5>
-                                                  <a href="#" class="btn btnVerde btUpgrad4"><h5 id="Valor4"></h5></a>
-                                                </div>
-                                              </div>
-                                <div class="card upgrads left" >
-                                                <img class="card-img-top" src="..." alt="Card image cap">
-                                                <div class="card-body">
-                                                  <h5 class="card-title">Industria de Doces</h5>
-                                                  <a href="#" class="btn btnVerde btUpgrad5"><h5 id="Valor5"></h5></a>
-                                                </div>
-                                              </div>
-                                <div class="card upgrads left" >
-                                                <img class="card-img-top" src="..." alt="Card image cap">
-                                                <div class="card-body">
-                                                  <h5 class="card-title">Ultra Doce</h5>
-                                                  <a href="#" class="btn btnVerde btUpgrad6"><h5 id="Valor6"></h5></a>
-                                                </div>
-                                              </div>
-                                
+                        <div class="card upgrads left">
+                                <img class="card-img-top maisPorclick" src="gameimg/DoceComeco.png" alt="Card image cap">
+                                <div class="card-body">
+                                        <h5 class="card-title">Mais Por click</h5>
+                                        <a href="#" class="btn btnVerde1 btUpgrad1">
+                                                <h5 id="Valor1"></h5>
+                                        </a>
+                                </div>
+                        </div>
+                        <div class="card upgrads left">
+                                <img class="card-img-top Garota" src="gameimg/garotaconfeitera.png" alt="Card image cap ">
+                                <div class="card-body">
+                                        <h5 class="card-title">Garotas Confeiteiras</h5>
+                                        <a href="#" class="btn btnVerde1 btUpgrad2">
+                                                <h5 id="Valor2"></h5>
+                                        </a>
+                                </div>
+                        </div>
+                        <div class="card upgrads left">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                        <h5 class="card-title">Fazenda de Doces</h5>
+                                        <a href="#" class="btn btnVerde1 btUpgrad3">
+                                                <h5 id="Valor3"></h5>
+                                        </a>
+                                </div>
+                        </div>
+                        <div class="card upgrads left">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                        <h5 class="card-title">Loja de Doces</h5>
+                                        <a href="#" class="btn btnVerde btUpgrad4">
+                                                <h5 id="Valor4"></h5>
+                                        </a>
+                                </div>
+                        </div>
+                        <div class="card upgrads left">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                        <h5 class="card-title">Industria de Doces</h5>
+                                        <a href="#" class="btn btnVerde btUpgrad5">
+                                                <h5 id="Valor5"></h5>
+                                        </a>
+                                </div>
+                        </div>
+                        <div class="card upgrads left">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                        <h5 class="card-title">Ultra Doce</h5>
+                                        <a href="#" class="btn btnVerde btUpgrad6">
+                                                <h5 id="Valor6"></h5>
+                                        </a>
+                                </div>
+                        </div>
+
                 </div>
         </div>
-        <div id="Menu"><div id="carouselExampleControls" class="carousel slide carouselTamanho" data-ride="carousel">
+        <div id="Menu">
+                <div id="carouselExampleControls" class="carousel slide carouselTamanho" data-ride="carousel">
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img class="d-block w-100 imgCaro" src="img/BombomMorango.jpg" alt="First slide">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100 imgCaro" src="img/Quindim.jpg" alt="Second slide">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100 imgCaro" src="img/Brigadeiro.jpg" alt="Third slide">
-                          </div>
+                                <div class="carousel-item active">
+                                        <img class="d-block w-100 imgCaro" src="img/BombomMorango.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                        <img class="d-block w-100 imgCaro" src="img/Quindim.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                        <img class="d-block w-100 imgCaro" src="img/Brigadeiro.jpg" alt="Third slide">
+                                </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -105,7 +122,8 @@
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="sr-only">Next</span>
                         </a>
-                      </div></div>
+                </div>
+        </div>
         <div id="Doce">
                 <div class="container doce">
                         <div class="card-group">
@@ -116,23 +134,53 @@
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Brigadeiro<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btBrigadeiro bthide">
 
+                                                <button type="button" class="btn btn-danger MarginsLeft btinfo btBrigadeiro bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
 
                                         </div>
                                 </div>
-                                <div id="divBrigadeiro" class="infoDoces hideDive"></div>
+                                <div class="card doce-card cardBrigadeiroBranco showcard hidecard">
+                                        <img class="card-image-top image MarginsLeft" src="img/BrigadeiroBranco.jpg">
+
+                                        <div class="card-body">
+                                                <h4 class="card-title textDoce"></h4>
+                                                <p class="card-text textDoce MarginsLeft">Brigadeiro Branco<br></p>
+
+                                                <button type="button" class="btn btn-danger MarginsLeft btinfo btBrigadeiroBranco bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
+
+                                        </div>
+                                </div>
+
+
                                 <div class="card doce-card cardQuindim showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/Quindim.jpg">
 
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Quindim<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btQuindim bthide">
 
+                                                <button type="button" class="btn btn-danger MarginsLeft btinfo btQuindim bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
                                         </div>
                                 </div>
-                                <div id="divQuindim" class="infoDoces  hideDive"></div>
+
+                                <div class="card doce-card cardQuindimNozes showcard hidecard">
+                                        <img class="card-image-top image MarginsLeft" src="img/QuindimNozes.jpg">
+
+                                        <div class="card-body">
+                                                <h4 class="card-title textDoce"></h4>
+                                                <p class="card-text textDoce MarginsLeft">Quindim de Nozes<br></p>
+
+                                                <button type="button" class="btn btn-danger MarginsLeft btinfo btQuindimNozes bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
+                                        </div>
+                                </div>
 
                                 <div class="card doce-card cardBombomMorango  showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/BombomMorango.jpg">
@@ -140,33 +188,38 @@
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Bombom De Morango<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btBombomMorango bthide">
+                                                <button type="button" class="btn btn-danger MarginsLeft btBombomMorango btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
 
                                         </div>
                                 </div>
-                                <div id="divBombomMorango" class="infoDoces  hideDive"></div>
+
                                 <div class="card doce-card cardBombomNozes  showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/BombomNozes.jpg">
 
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Bombom De Nozes<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btBombomNozes bthide">
-
+                                                <button type="button" class="btn btn-danger MarginsLeft btBombomNozes btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
                                         </div>
                                 </div>
-                                <div id="divBombomNozes" class="infoDoces  hideDive"></div>
+
                                 <div class="card doce-card cardBombomCoco  showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/BombomCoco.jpg">
 
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Bombom De Coco<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btBombomCoco bthide">
+                                                <button type="button" class="btn btn-danger MarginsLeft btBombomCoco btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
 
                                         </div>
                                 </div>
-                                <div id="divBombomCoco" class="infoDoces  hideDive"></div>
+
 
                                 <div class="card doce-card cardNinhos  showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/Ninho.jpg">
@@ -174,12 +227,13 @@
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Ninhos<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btNinhos bthide">
-
+                                                <button type="button" class="btn btn-danger MarginsLeft btNinhos btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
 
                                         </div>
                                 </div>
-                                <div id="Ninhos" class="infoDoces  hideDive"></div>
+
 
                                 <div class="card doce-card cardQueijadinha  showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/Queijadinha.jpg">
@@ -187,12 +241,12 @@
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Queijadinha<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btQueijadinha bthide">
-
-
+                                                <button type="button" class="btn btn-danger MarginsLeft btQueijadinha btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
                                         </div>
                                 </div>
-                                <div id="Queijadinha" class="infoDoces  hideDive"></div>
+
 
                                 <div class="card doce-card cardPaposAnjo  showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/PapoAnjo.jpg">
@@ -200,12 +254,13 @@
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Papos de Anjo<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btPaposAnjo bthide">
-
+                                                <button type="button" class="btn btn-danger MarginsLeft btPaposAnjo btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
 
                                         </div>
                                 </div>
-                                <div id="PaposAnjo" class="infoDoces  hideDive"></div>
+
 
                                 <div class="card doce-card cardOlhoSogra  showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/OlhoSogra.jpg">
@@ -213,25 +268,39 @@
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Olho de Sogra<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btOlhoSogra bthide">
 
-
+                                                <button type="button" class="btn btn-danger MarginsLeft btOlhoSogra btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
                                         </div>
                                 </div>
-                                <div id="OlhoSogra" class="infoDoces  hideDive"></div>
+
 
                                 <div class="card doce-card cardBeijinhogemas  showcard hidecard">
-                                        <img class="card-image-top image MarginsLeft" src="img/Beijinho.jpg">
+                                        <img class="card-image-top image MarginsLeft" src="img/Beijinho.png">
 
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Beijinho de Coco e Gemas<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btBeijinhoGemas bthide">
-
+                                                <button type="button" class="btn btn-danger MarginsLeft  btBeijinhoGemas btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
 
                                         </div>
                                 </div>
-                                <div id="BeijinhoGemas" class="infoDoces  hideDive"></div>
+                                <div class="card doce-card cardPanelinhaCoco  showcard hidecard">
+                                        <img class="card-image-top image MarginsLeft" src="img/PanelinhaCoco.jpg">
+
+                                        <div class="card-body">
+                                                <h4 class="card-title textDoce"></h4>
+                                                <p class="card-text textDoce MarginsLeft">Panelinha de Coco<br></p>
+                                                <button type="button" class="btn btn-danger MarginsLeft  btPanelinhaCoco btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
+
+                                        </div>
+                                </div>
+
 
                                 <div class="card doce-card cardBeijoMulata  showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/BeijoMulata.jpg">
@@ -239,12 +308,13 @@
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Beijo de Mulata<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btBeijoMulata bthide">
 
-
+                                                <button type="button" class="btn btn-danger MarginsLeft btBeijoMulata btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
                                         </div>
                                 </div>
-                                <div id="BeijoMulata" class="infoDoces  hideDive"></div>
+
 
                                 <div class="card doce-card cardBeijoalemao  showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/BeijoAlemao.jpg">
@@ -252,25 +322,27 @@
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Beijo de Alemão<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btBeijoAlemao bthide">
 
-
+                                                <button type="button" class="btn btn-danger MarginsLeft btBeijoAlemao btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
                                         </div>
                                 </div>
-                                <div id="BeijoAlemao" class="infoDoces  hideDive"></div>
+
 
                                 <div class="card doce-card cardBemCasado  showcard hidecard">
-                                        <img class="card-image-top image MarginsLeft" src="img/BemCasado.png">
+                                        <img class="card-image-top image MarginsLeft" src="img/BemCasado.jpg">
 
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Bem Casados<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btBemCasado bthide">
-
+                                                <button type="button" class="btn btn-danger MarginsLeft btBemCasado btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
 
                                         </div>
                                 </div>
-                                <div id="BemCasado" class="infoDoces  hideDive"></div>
+
 
                                 <div class="card doce-card cardCamafeu  showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/Camafeu.jpg">
@@ -278,12 +350,12 @@
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Camafeu<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btCamafeu bthide">
-
+                                                <button type="button" class="btn btn-danger MarginsLeft btCamafeu btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
 
                                         </div>
                                 </div>
-                                <div id="Camafeu" class="infoDoces  hideDive"></div>
 
                                 <div class="card doce-card cardTrouxinhasNozes showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/Trouxinhadenozes.jpg">
@@ -291,12 +363,14 @@
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce  hideDive"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Trouxinhas de Nozes<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btTrouxinhasNozes bthide">
+                                                <button type="button" class="btn btn-danger MarginsLeft btTrouxinhasNozes btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
 
 
                                         </div>
                                 </div>
-                                <div id="TrouxinhasNozes" class="infoDoces  hideDive"></div>
+
 
                                 <div class="card doce-card cardTrouxa  showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/trouxaFioOvos.jpg">
@@ -304,24 +378,26 @@
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Trouxas de Fios de Ovos<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btTrouxa bthide">
-
+                                                <button type="button" class="btn btn-danger MarginsLeft btTrouxa btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
 
                                         </div>
                                 </div>
-                                <div id="Trouxa" class="infoDoces  hideDive"></div>
+
                                 <div class="card doce-card cardFatiasBraga  showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/FatiasBraga.jpg">
 
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Fatias de Braga<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btFatiasBraga bthide">
-
+                                                <button type="button" class="btn btn-danger MarginsLeft btFatiasBraga btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
 
                                         </div>
                                 </div>
-                                <div id="FatiasBraga" class="infoDoces  hideDive"></div>
+
 
                                 <div class="card doce-card cardPasteisBelem showcard hidecard">
                                         <img class="card-image-top image MarginsLeft" src="img/PasteiBelem.jpg">
@@ -329,23 +405,57 @@
                                         <div class="card-body">
                                                 <h4 class="card-title textDoce"></h4>
                                                 <p class="card-text textDoce MarginsLeft">Pasteis de Belém<br></p>
-                                                <input type="button" value="Informações Sobre o Doce " class="btn btn-danger MarginsLeft btinfo btPasteisBelem bthide">
+                                                <button type="button" class="btn btn-danger MarginsLeft btPasteisBelem btinfo bthide" data-toggle="modal" data-target="#InfoModal">
+                                                                Informações Sobre o Doce
+                                                              </button>
 
 
                                         </div>
                                 </div>
-                                <div id="PasteisBelem" class="infoDoces  hideDive"></div>
+
 
                         </div>
-                </div><input type="button" value="x" class="btX btn-danger">
-        </div>
-        <div id="Contatos">Contatos</div>   
-        <script src="vendor/jquery.min.js"></script>
-        <script src="vendor/popper.min.js"></script> 
-        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-        <script src="js/java.js"></script> 
-        <script src="js/Game.js"></script> 
-       
+                </div>
+
+
+
+
+
+
+
+
+
+                <div class="modal fade" id="InfoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog  Tamanho" role="document">
+                                <div class=" Tamanho modal-content">
+                                        <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">
+                                                        <h5 id="TextTitle"></h5>
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+
+                                        </div>
+                                        <hr>
+                                        <div class="modal-body">
+                                              <h3> Ingredientes : <h3 id="TextInfo"></h3></h3>
+                                              
+                                             <h3 id="TextTamanhoP"> </h3>
+                                             <h3 id="TextTamanhoM"> </h3>
+                                              <h3 id="TextTamanhoG"> </h3>
+                                        </div>
+
+                                </div>
+                        </div>
+                </div>
+                <div id="Contatos">Contatos</div>
+                <script src="vendor/jquery.min.js"></script>
+                <script src="vendor/popper.min.js"></script>
+                <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+                <script src="js/java.js"></script>
+                <script src="js/Game.js"></script>
+
 </body>
 
 </html>

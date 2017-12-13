@@ -51,6 +51,9 @@
 }
 #Doce{
     display: none;
+    height: 1500px;
+    width: 1600px;
+    margin: 60px auto;
 }
 #Contatos{
     display:none;
@@ -59,8 +62,7 @@ body{
     background-image: url("../img/doces.jpg")
 }
 .carouselTamanho{
-    margin-top: 50px;
-    margin-left:180px ;
+    margin: 50px auto;
 width: 1500px;
 height: 600px;
 }
@@ -70,100 +72,12 @@ height: 600px;
 }
 
 
-
-
-
-.StyleGame{
-    width: 900px;
-    height: 700px;
-    background-color: rgba(0, 214, 252, 0.46);
-    position: fixed;
-    top: 120px;
-    left: 500px;
-}
-#HScore{
-    margin-top: -40px;
-    margin-left: 115px;
-}
-#h5score{
-
- margin-top: 25px;
-}
-#score{
-    position: fixed;
-    top: 130px;
-    left: 1130px;
-    width: 270px;
-    height: 50px;
-    background-color: rgba(146, 84, 2, 0.72);
-}
-.score{
-    position: fixed;
-    top: 110px;
-    left: 1130px;
-    width: 270px;
-    height: 50px;
-}
-.principal{
-    height: 100px;
-    width: 100px;
-}
-.icon{
-    margin-top: 50px;
-    height: 100px;
-    width: 100px;
-}
-#navGame{
-    margin-top: 80px;
-    width: 100px;
-    height: 400px;
-    background-color: rgba(0, 0, 0, 0.46);
-}
-.personagem{
-    height: 400px;
-    width: 400px;
-    position: fixed;
-    top: 400px;
-    left: 800px;
-    z-index: 9999;
+#TextTamanhoP{
+    margin: 40px 0px;
 }
 
-.btnVerde1{
-    background-color: greenyellow;
-    color: black;
-    height: 40px;
-    width: 200px;
-    margin: 75px -20px;
-    position: absolute;
-    top: 133px;
-    
-}
-.btnVerde{
-    background-color: greenyellow;
-    color: black;
-    height: 40px;
-    width: 200px;
-    margin: 75px -20px;
-    position: absolute;
-    top: 133px;
-}
 
-.upgrads{
-    height: 250px;
-    width: 200px;
-    background-color: rgba(255, 255, 255, 0);
 
-}
-#divup{
-    position: fixed;
-    top: 200px;
-    left: 650px;
-    height: 400px;
-    width: 600px;
-}
-.left{
-    float: left;
-}
 
 @media screen and (min-width:0px) and (max-width: 1600px){
     .infoDoces{

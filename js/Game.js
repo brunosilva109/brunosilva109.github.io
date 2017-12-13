@@ -56,112 +56,136 @@ $(document).ready(function () {
 
     $('.btUpgrad1').click(function () {
 
-
-        if (resposta < valor1) {
-            alert('Voce Não Tem Pontos o Suficiente');
-        }
-        if (upgrad1 == 80) {
+        if (upgrad1 == 7) {
             alert('Voce Ja esta no Maximo desse Upgrad');
             Valor1.textContent = "MAX";
         }
-        else if(resposta > valor1){
+        else if (resposta < valor1) {
+            alert('Voce Não Tem Pontos o Suficiente');
+        }
+
+        else if (resposta >= valor1) {
             resposta = resposta - valor1;
             upgrad1 = upgrad1 + 1
             HScore.textContent = resposta;
-            valor1 = valor1 *2;
+            valor1 = valor1 * 2;
             Valor1.textContent = valor1;
+            if (upgrad1 == 7) {
+
+                Valor1.textContent = "MAX";
+            }
         }
 
     });
     $('.btUpgrad2').click(function () {
 
-
-        if (resposta < valor2) {
-            alert('Voce Não Tem Pontos o Suficiente');
-        }
         if (upgrad2 == 7) {
             alert('Voce Ja esta no Maximo desse Upgrad');
-            Valor2.textContent = "MAX";
-        }
-        else if(resposta > valor12){
+            Valor2.textContent = "MAX";}
+       else if (resposta < valor2) {
+                alert('Voce Não Tem Pontos o Suficiente');
+            }
+
+        
+        else if (resposta > valor12) {
             resposta = resposta - valor2;
             upgrad2 = upgrad2 + 1
             HScore.textContent = resposta;
             valor2 = valor2 * 2;
             Valor2.textContent = valor2;
+            if (upgrad2 == 7) {
+
+                Valor2.textContent = "MAX";
+            }
         }
 
     });
     $('.btUpgrad3').click(function () {
 
-
-        if (resposta < valor3) {
-            alert('Voce Não Tem Pontos o Suficiente');
-        }
         if (upgrad3 == 7) {
             alert('Voce Ja esta no Maximo desse Upgrad');
             Valor3.textContent = "MAX";
         }
-        else if(resposta > valor3){
+        else if (resposta < valor3) {
+            alert('Voce Não Tem Pontos o Suficiente');
+        }
+
+        else if (resposta > valor3) {
             resposta = resposta - valor3;
             upgrad3 = upgrad3 + 1
             HScore.textContent = resposta;
             valor3 = valor3 * 2;
             Valor3.textContent = valor3;
+            if (upgrad3 == 7) {
+
+                Valor3.textContent = "MAX";
+            }
         }
 
     });
     $('.btUpgrad4').click(function () {
 
-
-        if (resposta < valor4) {
-            alert('Voce Não Tem Pontos o Suficiente');
-        } if (upgrad4 == 7) {
+        if (upgrad4 == 7) {
             alert('Voce Ja esta no Maximo desse Upgrad');
             Valor4.textContent = "MAX";
-        }else if(resposta > valor4){
+        }
+        else if (resposta < valor4) {
+            alert('Voce Não Tem Pontos o Suficiente');
+        } else if (resposta > valor4) {
 
             resposta = resposta - valor4;
             upgrad4 = upgrad4 + 1
             HScore.textContent = resposta;
             valor4 = valor4 * 2;
             Valor4.textContent = valor4;
+            if (upgrad4 == 7) {
+
+                Valor4.textContent = "MAX";
+            }
         }
 
     });
     $('.btUpgrad5').click(function () {
 
-
-        if (resposta < valor5) {
-            alert('Voce Não Tem Pontos o Suficiente');
-        } if (upgrad5 == 7) {
+        if (upgrad5 == 7) {
             alert('Voce Ja esta no Maximo desse Upgrad');
             Valor5.textContent = "MAX";
         }
-        else if(resposta > valor5){
+        else if (resposta < valor5) {
+            alert('Voce Não Tem Pontos o Suficiente');
+        }
+        else if (resposta > valor5) {
             resposta = resposta - valor5;
             upgrad5 = upgrad5 + 1
             HScore.textContent = resposta;
-            valor5 = valor5 *2;
+            valor5 = valor5 * 2;
             Valor5.textContent = valor5;
+            if (upgrad1 == 7) {
+
+                Valor1.textContent = "MAX";
+            }
         }
 
     });
     $('.btUpgrad6').click(function () {
 
-
-        if (resposta < valor6) {
-            alert('Voce Não Tem Pontos o Suficiente');
-        } if (upgrad6 == 7) {
+        if (upgrad6 == 7) {
             alert('Voce Ja esta no Maximo desse Upgrad');
             Valor6.textContent = "MAX";
         }
-        else if(resposta > valor6){
+        else if (resposta < valor6) {
+            alert('Voce Não Tem Pontos o Suficiente');
+        }
+        else if (resposta > valor6) {
             resposta = resposta - valor6;
             upgrad6 = upgrad6 + 1
             HScore.textContent = resposta;
             valor6 = valor6 * 2;
             Valor6.textContent = valor6;
+            if (upgrad1 == 7) {
+
+                Valor1.textContent = "MAX";
+            }
         }
 
     });
@@ -174,7 +198,7 @@ $(document).ready(function () {
             HScore.textContent = resposta;
         }
         else {
-            var mais =10*(upgrad1 * 1.2)
+            var mais = 10 * (upgrad1 * 1.2)
             resposta = resposta + Math.floor(mais);
 
             HScore.textContent = resposta;
